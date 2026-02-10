@@ -18,7 +18,7 @@ graph TD
     B -->|Construct| E{RICE POT Prompt}
     C --> E
     D --> E
-    E -->|Request| F[LLM (e.g., GPT-4)]
+    E -->|Request| F["LLM (e.g., GPT-4)"]
     F -->|Response| G[Structured Test Plan]
     G -->|Output| H[Markdown File / Console]
 ```
